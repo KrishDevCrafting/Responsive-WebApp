@@ -1,3 +1,20 @@
 .main-container{
-    width: 90%;
+    /* width: 60%; */
+    
+    margin-top: 20px;
+/* width: 797px; */
+margin-left: 200px;
 }
+.btn-box{
+    padding-left:400px;
+}
+/* .container-box{
+    
+} */
+ .mini-box{
+border: 1px solid;
+/* width: 50%; */
+ }
+ .head{
+border: 1px solid red;
+ }
