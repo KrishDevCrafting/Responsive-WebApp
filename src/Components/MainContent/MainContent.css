@@ -11,10 +11,21 @@ margin-left: 200px;
 /* .container-box{
     
 } */
+ #font-style{
+    font-size: 20px
+ }
  .mini-box{
+    width: 692px;
+    position: relative;
+    left: 200px;
+/* margin-left: -290px;
+   padding-right:100px; */
 border: 1px solid;
 /* width: 50%; */
  }
  .head{
 border: 1px solid red;
+ }
+ #box-img{
+width: 692px;
  }

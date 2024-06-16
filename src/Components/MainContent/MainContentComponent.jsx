@@ -1,5 +1,11 @@
 import React from "react";
 import "../MainContent/MainContent.css";
+import NatureImg from "../Assets/nature.png";
+import RustImg from "../Assets/RustDoor.png";
+import RedCarImg from "../Assets/RedCar.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEllipsis } from "@fortawesome/free-solid-svg-icons";
+
 const MainContent = () => {
   return (
     <>
@@ -38,13 +44,46 @@ const MainContent = () => {
           </div>
         </div>
       </div>
-      <div className="d-flex justify-content-center flex-column align-items-center head" >
-<div className="mini-box"><h1>Article</h1>
-<h2>What if famous brands had regular fonts? Meet RegulaBrands!</h2>
-<p>I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
-</div>
-<div className="mini-box"></div>
-<div className="mini-box"></div>
+      <div className="head">
+        <div className="mini-box">
+          <img id="box-img" src={NatureImg} alt="img not found"></img>
+          <h1> ✍️Article</h1>
+          <h2 id="font-style">
+            What if famous brands had regular fonts? Meet RegulaBrands!{" "}
+            <FontAwesomeIcon icon={faEllipsis} />
+          </h2>
+
+          <p>
+            I’ve worked in UX for the better part of a decade. From now on, I
+            plan to rei…
+          </p>
+        </div>
+        <div className="mini-box">
+          <img id="box-img" src={RustImg} alt="img not found"></img>
+          <h1> 🔬️ Education</h1>
+          <h2 id="font-style">
+            Tax Benefits for Investment under National Pension Scheme launched
+            by Government <FontAwesomeIcon icon={faEllipsis} />
+          </h2>
+
+          <p>
+            I’ve worked in UX for the better part of a decade. From now on, I
+            plan to rei…
+          </p>
+        </div>
+        <div className="mini-box">
+          <img id="box-img" src={RedCarImg} alt="img not found"></img>
+          <h1> 🗓️ Meetup</h1>
+          <h2 id="font-style">
+            Finance & Investment Elite Social Mixer @Lujiazui{" "}
+            <FontAwesomeIcon icon={faEllipsis} />
+          </h2>
+
+          <p>
+            I’ve worked in UX for the better part of a decade. From now on, I
+            plan to rei…
+          </p>
+        </div>
       </div>
     </>
   );
