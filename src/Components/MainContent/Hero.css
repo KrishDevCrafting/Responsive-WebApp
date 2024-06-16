@@ -1,0 +1,22 @@
+
+
+.img-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+height: 440px;
+
+background-image: url("../Assets/Rectangle.png");
+}
+#align{
+    position: absolute;
+    top: 358px;
+    left: 200px ;
+}
+#align2{
+    position: absolute;
+    top: 409px;
+    left: 200px;
+    bottom: 80px;
+    
+}
