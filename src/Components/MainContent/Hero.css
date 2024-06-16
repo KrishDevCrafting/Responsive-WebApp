@@ -1,5 +1,4 @@
 
-
 .img-container{
     display: flex;
     justify-items: center;
@@ -17,6 +16,5 @@ background-image: url("../Assets/Rectangle.png");
     position: absolute;
     top: 409px;
     left: 200px;
-    bottom: 80px;
-    
+    bottom: 80px;   
 }
