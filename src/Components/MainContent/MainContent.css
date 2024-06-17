@@ -29,3 +29,24 @@ border: 1px solid red;
  #box-img{
 width: 692px;
  }
+ #views{
+    border: 1px solid red;
+    margin-left: 200px;
+ }
+ .btn{
+    border: 1px solid black;
+    border-radius: 8px 8px 8px 8px;
+    transition: border 0.5s ease-in-out;
+ }
+ .btn:hover{
+border-style: none;
+ }
+ .btn2{
+    border-radius: 8px 8px 8px 8px;
+    transition: border 0.5s ease-in-out;
+    color:  #02B875;
+
+ }
+ .btn2:hover{
+    border-style: none;
+ }

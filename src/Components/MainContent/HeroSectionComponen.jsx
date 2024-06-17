@@ -1,5 +1,5 @@
 import React from 'react';
-import LargeImg from "../Assets/Rectangle.png"
+
 import "./Hero.css"
 const HeroComponent = () => {
     return ( <>

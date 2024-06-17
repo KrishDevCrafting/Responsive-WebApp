@@ -1,4 +1,5 @@
 import React from 'react';
+// import CreateAccount from "../LoginSignup/CreateAccount";
 // import "./Nav.css"
 import img from "../Assets/Union-logo.png"
 const NavbarComponent = () => {
@@ -8,7 +9,7 @@ const NavbarComponent = () => {
 
 <div className="nav-box"><a href="http://" target="_blank" rel="noopener noreferrer">ATG.<img src={img} alt='Img-Logo'></img>WRLD</a></div>
 <div className="nav-box"><input type="search" name="" id=""placeholder='Search for your favorite groups in ATG' /></div>
-<div className="nav-box"><a href="http://" target="_blank" rel="noopener noreferrer">Create account. It’s free!</a></div>
+<div className="nav-box"><a href="http://" target="_blank" rel="noopener noreferrer"><button>Create account. It’s free!</button></a></div>
 
 
 
@@ -16,7 +17,7 @@ const NavbarComponent = () => {
    
     
     
-    
+    {/* <CreateAccount/> */}
     
     </> );
 }
