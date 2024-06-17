@@ -42,10 +42,10 @@ const MainContent = () => {
         </div>
         <div className="d-flex btn-box">
           <div className="box">
-            <button>Write post</button>
+            <button className="btn-post">Write post</button>
           </div>
           <div className="box">
-            <button>Join Group</button>
+            <button className="btn-join bg-primary text-white">Join Group</button>
           </div>
         </div>
       </div>

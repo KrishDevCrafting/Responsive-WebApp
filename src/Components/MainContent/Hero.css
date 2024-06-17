@@ -1,20 +1,25 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+PL:wght@100..400&display=swap');
 .img-container{
     display: flex;
     justify-items: center;
     align-items: center;
+   
 height: 440px;
 
 background-image: url("../Assets/Rectangle.png");
 }
 #align{
+
+    font-family: 'Noto Sans';
     position: absolute;
     top: 358px;
     left: 200px ;
 }
 #align2{
+
+    font-family: 'Noto Sans';
     position: absolute;
     top: 409px;
-    left: 200px;
+    left: 220px;
     bottom: 80px;   
 }

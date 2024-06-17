@@ -15,7 +15,7 @@ const NavbarComponent = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            ATG.<img src={img} alt="Img-Logo"></img>WRLD
+            ATG.<img id="logo" src={img} alt="Img-Logo"></img>WRLD
           </a>
         </div>
         <div className="nav-box">
@@ -29,7 +29,7 @@ const NavbarComponent = () => {
         </div>
         <div className="nav-box">
           <a href="http://" target="_blank" rel="noopener noreferrer">
-            <button>Create account. It’s free!</button>
+            <button className="bg-white border-0">Create account. <span className="text-primary">It’s free!</span></button>
           </a>
         </div>
       </div>

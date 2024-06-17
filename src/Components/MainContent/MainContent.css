@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+PL:wght@100..400&display=swap');
+
 .main-container{
     /* width: 60%; */
     
@@ -49,4 +51,16 @@ border-style: none;
  }
  .btn2:hover{
     border-style: none;
+ }
+ .btn-post{
+   font-family: 'Noto Sans';
+width: 133px;
+   background: #EDEEF0;
+ }
+ .box{
+   margin: 0px 10px 10px 10px;
+ }
+ .btn-join{
+   width: 125px;
+   font-family: 'Noto Sans';
  }
