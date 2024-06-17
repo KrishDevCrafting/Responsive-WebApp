@@ -1,4 +1,33 @@
-.navbar-container{
-    display: flex;
-    justify-content: space-between;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+PL:wght@100..400&display=swap');
+.nav-box a{
+    text-decoration: none;
+    /* font-family: "Playwrite PL", cursive; */
+    font-family: "Noto Sans", sans-serif;
+}
+
+#search{
+    width: 360px;
+    background: #F2F2F2;
+    border-style: none;
+    padding: 10px 40px 10px 40px;
+    border-radius: 21px 21px 21px 21px;
+
+}
+::placeholder{
+    font-size: 14px;
+    color: #5C5C5C;
+}
+.container{
+    padding-top: 20px;
+height: 72px;
+    margin-left: 100px;
+}
+#icon-search{
+    position: relative;
+    top: 2px;
+    font: 100;
+    right: 344px;
 }
