@@ -16,7 +16,7 @@ const MainContent = () => {
     <>
       <div className="main-container d-flex justify-content-around border">
         <div className="container-box">
-          <a href="" target="_blank">
+          <a href="" target="_blank" id="border-a">
             All Post(32)
           </a>
         </div>
