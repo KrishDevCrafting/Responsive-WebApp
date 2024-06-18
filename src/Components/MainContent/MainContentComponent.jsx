@@ -46,7 +46,7 @@ const MainContent = () => {
             <span id="icon-btn-post"><FontAwesomeIcon icon={faCaretDown} /></span>
           </div>
           <div className="box">
-            <button className="btn-join bg-primary text-white">Join Group</button>
+            <button className="btn-join text-white">Join Group</button>
             <span id="icon-btn-join"><FontAwesomeIcon icon={faUserPlus} style={{color: "#ffffff",}} /></span>
           </div>
         </div>
