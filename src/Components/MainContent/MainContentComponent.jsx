@@ -9,7 +9,7 @@ import RonalJonesImg from "../Assets/Ronal.png";
 import JoseImg from "../Assets/JosepgGray.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEllipsis } from "@fortawesome/free-solid-svg-icons";
+import { faEllipsis,faCaretDown,faUserPlus } from "@fortawesome/free-solid-svg-icons";
 
 const MainContent = () => {
   return (
@@ -43,9 +43,11 @@ const MainContent = () => {
         <div className="d-flex btn-box">
           <div className="box">
             <button className="btn-post">Write post</button>
+            <span id="icon-btn-post"><FontAwesomeIcon icon={faCaretDown} /></span>
           </div>
           <div className="box">
             <button className="btn-join bg-primary text-white">Join Group</button>
+            <span id="icon-btn-join"><FontAwesomeIcon icon={faUserPlus} style={{color: "#ffffff",}} /></span>
           </div>
         </div>
       </div>

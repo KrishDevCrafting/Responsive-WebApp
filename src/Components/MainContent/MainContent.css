@@ -1,66 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+PL:wght@100..400&display=swap');
 
-.main-container{
-    /* width: 60%; */
-    
-    margin-top: 20px;
-/* width: 797px; */
-margin-left: 200px;
+.main-container {
+   /* width: 60%; */
+
+   margin-top: 20px;
+   /* width: 797px; */
+   margin-left: 200px;
 }
-.btn-box{
-    padding-left:400px;
+
+.btn-box {
+   padding-left: 400px;
 }
+
 /* .container-box{
     
 } */
- #font-style{
-    font-size: 20px
- }
- .mini-box{
-    width: 692px;
-    position: relative;
-    left: 200px;
-/* margin-left: -290px;
-   padding-right:100px; */
-border: 1px solid;
-/* width: 50%; */
- }
- .head{
-border: 1px solid red;
- }
- #box-img{
-width: 692px;
- }
- #views{
-    border: 1px solid red;
-    margin-left: 200px;
- }
- .btn{
-    border: 1px solid black;
-    border-radius: 8px 8px 8px 8px;
-    transition: border 0.5s ease-in-out;
- }
- .btn:hover{
-border-style: none;
- }
- .btn2{
-    border-radius: 8px 8px 8px 8px;
-    transition: border 0.5s ease-in-out;
-    color:  #02B875;
+#font-style {
+   font-size: 20px
+}
 
- }
- .btn2:hover{
-    border-style: none;
- }
- .btn-post{
+.mini-box {
+   width: 692px;
+   position: relative;
+   left: 200px;
+   /* margin-left: -290px;
+   padding-right:100px; */
+   border: 1px solid;
+   /* width: 50%; */
+}
+
+.head {
+   border: 1px solid red;
+}
+
+#box-img {
+   width: 692px;
+}
+
+#views {
+   border: 1px solid red;
+   margin-left: 200px;
+}
+
+.btn {
+   border: 1px solid black;
+   border-radius: 8px 8px 8px 8px;
+   transition: border 0.5s ease-in-out;
+}
+
+.btn:hover {
+   border-style: none;
+}
+
+.btn2 {
+   border-radius: 8px 8px 8px 8px;
+   transition: border 0.5s ease-in-out;
+   color: #02B875;
+
+}
+
+.btn2:hover {
+   border-style: none;
+}
+
+.btn-post {
+   border-style: none;
+   border-radius: 8px 8px 8px 8px;
+   padding: 5px;
    font-family: 'Noto Sans';
-width: 133px;
+   width: 133px;
    background: #EDEEF0;
- }
- .box{
+}
+
+.box {
    margin: 0px 10px 10px 10px;
- }
- .btn-join{
+}
+
+.btn-join {
+   
+   border-style: none;
+   border-radius: 8px 8px 8px 8px;
+   padding: 5px 10px 5px 15px;
    width: 125px;
    font-family: 'Noto Sans';
- }
+}
+
+#icon-btn-join {
+   
+   position: relative;
+   font-size: 12px;
+   bottom: 2px;
+   right: 120px;
+}
+
+#icon-btn-post {
+   
+   position: relative;
+
+   right: 20px;
+}
+.container-box a{
+   text-decoration: none;
+   color: #8A8A8A;
+}
